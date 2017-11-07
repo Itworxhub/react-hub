@@ -41,6 +41,9 @@ import Button from 'react-hub/lib/Button'
 *Coming soon*
 
 ## Change log
+***v0.2.1***
+- Moving the source code to `./src` and the built code to `./lib`;
+
 ***v0.2.0***
 - Adding SVG animated Loader component.
 - Adding Button component.
