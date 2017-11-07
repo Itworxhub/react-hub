@@ -1,10 +1,11 @@
 {
-    "name": "hub-ui",
+    "name": "react-hub",
     "version": "0.1.0",
     "description": "A set of React components used in ITWORX HUB",
     "main": "build/index.js",
     "scripts": {
         "build": "babel lib -d build",
+        "build:watch": "babel lib -w -d build",
         "lint": "eslint lib/**; exit 0",
         "lint:watch": "esw -w lib/**",
         "prepublish": "npm run build",
@@ -12,20 +13,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/itworx/hub-ui.git"
+        "url": "git+https://github.com/itworx/react-hub.git"
     },
     "author": "Anas Tawfeek <anas.tawfeek@itworx.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/itworx/hub-ui/issues"
+        "url": "https://github.com/itworx/react-hub/issues"
     },
-    "homepage": "https://github.com/itworx/hub-ui#readme",
+    "homepage": "https://github.com/itworx/react-hub#readme",
     "dependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",
         "babel-preset-latest": "^6.24.1",
         "babel-preset-react": "^6.24.1",
+        "color": "^2.0.0",
         "eslint": "^4.10.0",
         "eslint-plugin-import": "^2.8.0",
         "eslint-plugin-jsx-a11y": "^6.0.2",
@@ -36,5 +38,9 @@
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
         "styled-components": "^2.2.3"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0"
     }
 }
