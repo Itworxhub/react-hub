@@ -1,6 +1,6 @@
 {
     "name": "react-hub",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "A set of React components used in ITWORX HUB",
     "main": "lib/index.js",
     "scripts": {
