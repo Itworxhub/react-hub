@@ -1,11 +1,11 @@
 {
     "name": "react-hub",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "A set of React components used in ITWORX HUB",
     "main": "lib/index.js",
     "scripts": {
-        "build": "babel src -d build",
-        "build:watch": "babel src -w -d build",
+        "build": "babel src -d lib",
+        "build:watch": "babel src -w -d lib",
         "lint": "eslint src/**; exit 0",
         "lint:watch": "esw -w src/**",
         "prepublish": "npm run build",
